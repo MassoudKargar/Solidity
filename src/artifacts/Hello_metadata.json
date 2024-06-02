@@ -1,0 +1,94 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getStr",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "heloStr",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_str",
+						"type": "string"
+					}
+				],
+				"name": "setStr",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"constructor": {
+					"notice": "2- Functions "
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"src/Hello.sol": "Hello"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"src/Hello.sol": {
+			"keccak256": "0x17f9063a397eb45306cd1d49a48bae5ecb9dbc4989f4ad5550db0d1d37d6d5a5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cd974ed1562dbe8004e13fe1335a4315866e0dcc85f63b4bca35fd6e2bb4d6c4",
+				"dweb:/ipfs/QmPRuWgUzqQEPPGZDA7wuDPe2s5va4BWGvr5ef5wCyen1V"
+			]
+		}
+	},
+	"version": 1
+}
